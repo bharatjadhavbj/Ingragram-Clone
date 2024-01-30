@@ -1,0 +1,161 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border: 1px solid rgb(214, 211, 211);
+    width: 350px;
+    /* height: 450px; */
+}
+#btn{
+    margin-top: 10px;
+    width: 272px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(76,181,249);
+}
+img{
+    margin: 40px;
+    width: 50%;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    border: 0.3px solid rgb(214, 211, 211);;
+    background-color: rgb(250, 250 , 250);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    color: rgb(214, 211, 211);
+   margin-top: 20px;
+    width: 100px;
+   display: inline-block;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.hr{
+    color: rgb(214, 211, 211);
+}
+.fb a, .forgot a, .signup a{
+   color: rgb(20, 71,119);
+    ;
+    text-decoration: none;
+}
+.fb{
+    margin-top: 15px;
+}
+.forgot{ 
+    margin-top: 15px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.forgot a{
+    color: rgb(20, 71,119);
+}
+.container2{
+    width: 310px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 0.3px solid rgb(214, 211, 211);
+}
+.signup a{
+    color: rgb(20, 71,119);
+}
+
+/* For profile page */
+
+
+.head{
+    border: 1px solid black;
+    width: 350px;
+}
+#prfl{
+    display: flex;
+}
+.con{
+    margin-left: 20px;
+    display: flex;
+}
+#prfl img{
+    margin: 5% auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#instaid{
+    font-size: large;
+}
+#name{
+    font-size: small;
+}
+.dots{
+ margin-top: 35px;
+ margin-left: 120px;   
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}
+.orclimg img{
+ width: 350px;
+ margin: 0%;
+}
+.allicon{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+#share, #comm{
+    margin-left: 30px;
+}
+#para{
+    font-size: small;
+    margin: 0%;
+}
+.last{
+    margin-left: 5px;
+    display: flex;
+    text-align: left;
+}
+#heart:hover{
+    color: red;
+}
+
+.footer {
+
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    bottom: 0;
+    width: 330px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer button {
+    /* background-color: transparent; */
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
